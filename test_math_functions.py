@@ -16,8 +16,8 @@ def test_calc_multiply():
     assert output == 8
 
 
-def test_calc_multiply_fail():
-    output = multiply_numbers(2, 4)
+def test_calc_multiply_pass():
+    output = multiply_numbers(4, 4)
     assert output == 16
 
 
